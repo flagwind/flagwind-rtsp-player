@@ -1,0 +1,33 @@
+{
+    "compilerOptions": 
+    {
+        "module": "es6",
+        "target": "es6",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "src/*": ["./src/*"],
+            "app/*": ["./src/app/*"],
+            "web/*": ["./src/web/*"],
+            "assets/*": ["./src/web/assets/*"],
+            "styles/*": ["./src/web/styles/*"],
+            "config/*": ["./src/web/config/*"],
+            "components/*": ["./src/web/components/*"],
+            "models/*": ["./src/web/models/*"],
+            "services/*": ["./src/web/services/*"],
+            "views/*": ["./src/web/views/*"],
+            "utils/*": ["./src/web/utils/*"],
+            "iview/*": ["./node_modules/flagwind-web/dist/typings/components/iview/typings/*"]
+        },
+        "lib": 
+        [
+            "dom",
+            "es6"
+        ]
+    }
+}
