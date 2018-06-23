@@ -2,7 +2,7 @@
     <div class="v-dashboard">
         <i-row>
             <i-col span="12">
-                <u-player code="a" src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
+                <u-player src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
             </i-col>
             <i-col span="12">
                 <u-player code="b" src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
