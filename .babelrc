@@ -1,0 +1,59 @@
+{
+    "comments": false,
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "targets": {
+                            "node": 7
+                        }
+                    }
+                ],
+                "stage-0"
+            ],
+            "plugins": [
+                "istanbul"
+            ]
+        },
+        "app": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "targets": {
+                            "node": 7
+                        }
+                    }
+                ],
+                "stage-0"
+            ]
+        },
+        "web": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": false
+                    }
+                ],
+                "stage-0"
+            ]
+        },
+        "raw": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": false
+                    }
+                ],
+                "stage-0"
+            ]
+        }
+    },
+    "plugins": [
+        "transform-runtime"
+    ]
+}
