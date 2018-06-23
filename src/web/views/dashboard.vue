@@ -5,15 +5,15 @@
                 <u-player src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
             </i-col>
             <i-col span="12">
-                <u-player code="b" src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
+                <u-player src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
             </i-col>
         </i-row>
         <i-row>
             <i-col span="12">
-                <u-player code="a1" src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
+                <u-player src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
             </i-col>
             <i-col span="12">
-                <u-player code="b1" src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
+                <u-player src="rtsp://admin:admin123@10.10.10.127:554/mpeg4/ch1/main/av_stream"></u-player>
             </i-col>
         </i-row>
     </div>
